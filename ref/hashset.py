@@ -19,6 +19,13 @@ print(99 in myset)
 
 # List to a set:
 print(set([1, 2, 4]))
+
+
+revlist=[1,8,100]
+
+anotherset=set(revlist)
+print(revlist)
+
 # Set comprehension:
 myset={i for i in range(8)}
 print(myset)

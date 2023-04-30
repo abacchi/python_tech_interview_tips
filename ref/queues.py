@@ -16,3 +16,17 @@ print(queue)
 
 queue.pop()
 print(queue)
+
+
+listedq=deque([1,2,5])
+
+print(listedq)
+
+# Practicing popping
+
+
+leftp=listedq.popleft()
+
+print(leftp)
+
+print(listedq)
